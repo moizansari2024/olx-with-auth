@@ -2,27 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OLX-Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-
-
     <!-- header Section  -->
+
     <div class="max-container">
         <div class="padding">
             <header>
                 <div class="first-div">
-
                     <nav class="navbar navbar-expand-lg header">
-
-                        <div class="container-fluid ">
+                        <div class="container-fluid">
                             <svg class="menu-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px"
                                 height="30px">
                                 <path
@@ -38,8 +34,9 @@
                             <div class="navbar-nav width">
                                 <a class="nav-link active motor-a" aria-current="page" href="#">
                                     <div class="svg">
-                                        <div class="motor-svg"><svg width="101" height="40" class="motor-logo"
-                                                viewBox="0 0 101 40" fill="none">
+                                        <div class="motor-svg">
+                                            <svg width="101" height="40" class="motor-logo" viewBox="0 0 101 40"
+                                                fill="none">
                                                 <rect width="40" height="40" rx="20"
                                                     fill="linear-gradient(180deg, rgba(0, 47, 52, .16), rgba(0, 47, 52, .01) 81.77%, rgba(0, 47, 52, .01))">
                                                 </rect>
@@ -53,14 +50,12 @@
                                             <!-- <div></div> -->
                                         </div>
                                     </div>
-
-
                                 </a>
 
                                 <a class="nav-link active motor-a" aria-current="page" href="#">
                                     <div class="svg">
-                                        <div class="motor-svg"><svg width="112" height="40" viewBox="0 0 112 40"
-                                                fill="none">
+                                        <div class="motor-svg">
+                                            <svg width="112" height="40" viewBox="0 0 112 40" fill="none">
                                                 <rect width="40" height="40" rx="20" fill=""></rect>
                                                 <g fill="#000000" class="svg-hover">
                                                     <path
@@ -76,8 +71,13 @@
                                             </svg>
                                             <!-- <div></div> -->
                                         </div>
-                                        <div style="display: flex; justify-content: center; align-items: center;margin-left: 10px;"
-                                            onclick="openLoginModal()">
+
+                                        <div style="
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          margin-left: 10px;
+                        " onclick="openLoginModal()">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 class="profile-svg" stroke-width="1.5" stroke="currentColor"
                                                 class="size-6" height="30px" width="30px">
@@ -95,18 +95,22 @@
                 <div class="search-bar-container">
                     <div class="ser-item-1">
                         <div class="location-bar">
-                            <div class="#location-inp dropdown-svg"><svg xmlns="http://www.w3.org/2000/svg" width="28px"
-                                    height="37px" viewBox="0 0 24 24" fill="none">
+                            <div class="#location-inp dropdown-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="37px" viewBox="0 0 24 24"
+                                    fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L6.29289 9.70711C5.90237 9.31658 5.90237 8.68342 6.29289 8.29289C6.68342 7.90237 7.31658 7.90237 7.70711 8.29289L12 12.5858L16.2929 8.29289C16.6834 7.90237 17.3166 7.90237 17.7071 8.29289C18.0976 8.68342 18.0976 9.31658 17.7071 9.70711L12.7071 14.7071Z"
                                         fill="#000000" />
-                                </svg></div>
-                            <div><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 1024 1024"
+                                </svg>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 1024 1024"
                                     class="_11b2c2ae _8033f60b loc-svg">
                                     <path
                                         d="M512 85.33c211.75 0 384 172.27 384 384 0 200.58-214.8 392.34-312.66 469.34H440.68C342.83 861.67 128 669.9 128 469.33c0-211.73 172.27-384 384-384zm0 85.34c-164.67 0-298.67 133.97-298.67 298.66 0 160.02 196.89 340.53 298.46 416.6 74.81-56.72 298.88-241.32 298.88-416.6 0-164.69-133.98-298.66-298.67-298.66zm0 127.99c94.1 0 170.67 76.56 170.67 170.67s-76.56 170.66-170.66 170.66-170.67-76.56-170.67-170.66S417.9 298.66 512 298.66zm0 85.33c-47.06 0-85.33 38.28-85.33 85.34s38.27 85.33 85.34 85.33 85.33-38.27 85.33-85.33-38.27-85.34-85.33-85.34z">
                                     </path>
-                                </svg></div>
+                                </svg>
+                            </div>
                             <div>
                                 <select name="location-bar" id="location-inp">
                                     <option value="">Pakistan</option>
@@ -115,7 +119,7 @@
                                     <option value="">Karachi, Pakistan</option>
                                 </select>
                             </div>
-                            <div style="margin-left: auto;" class="bell-icon">
+                            <div style="margin-left: auto" class="bell-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     fill="#000000" height="25px" width="25px" version="1.1" id="Capa_1"
                                     viewBox="0 0 611.999 611.999" xml:space="preserve">
@@ -132,8 +136,6 @@
                                 </svg>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="ser-item-2">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
@@ -143,7 +145,7 @@
                             </path>
                         </svg>
                         <input type="search" name="" id="" placeholder="Find Cars, Mobile Phones and more..."
-                            class="search-inp">
+                            class="search-inp" />
                         <div class="search-svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24"
                                 fill="none">
@@ -155,18 +157,17 @@
                     </div>
 
                     <div class="profile-dropdown" id="profile-dropdown">
-                        <div class="container py-5 ">
+                        <div class="container py-5">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-12">
                                     <ul class="list-unstyled">
                                         <li class="dropdown ml-2">
-
-                                            <a class="rounded-circle " href="#" role="button" id="dropdownUser"
+                                            <a class="rounded-circle" href="#" role="button" id="dropdownUser"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <div class="avatar avatar-md avatar-indicators avatar-online">
                                                     <img alt="avatar"
                                                         src="https://www.olx.com.pk/assets/iconProfilePicture_noinline.6327fd8895807f09fafb0ad1e3d99b83.svg"
-                                                        class="rounded-circle">
+                                                        class="rounded-circle" />
                                                 </div>
                                             </a>
 
@@ -176,109 +177,139 @@
                                                         <div class="avatar avatar-md avatar-indicators avatar-online">
                                                             <img alt="avatar"
                                                                 src="https://www.olx.com.pk/assets/iconProfilePicture_noinline.6327fd8895807f09fafb0ad1e3d99b83.svg"
-                                                                class="rounded-circle">
+                                                                class="rounded-circle" id="useravator" />
                                                         </div>
                                                         <div class="ml-3 lh-1">
                                                             <h5 class="mb-0" id="userName"></h5>
                                                             <p class="mb-0" id="userEmail"></p>
                                                         </div>
-
                                                     </div>
-
                                                 </div>
                                                 <div class="dropdown-divider"></div>
+// parent dropdown toggle
+document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    let parent = this.closest('.dropdown');
+
+    // close all other dropdowns
+    document.querySelectorAll('.dropdown').forEach((drop) => {
+      if (drop !== parent) {
+        drop.classList.remove('active');
+        drop.querySelectorAll('.dropdown-menu').forEach((menu) => {
+          menu.classList.remove('active');
+        });
+      }
+    });
+
+    // toggle current
+    let menu = parent.querySelector('.dropdown-menu');
+    if (menu) {
+      menu.classList.toggle('active');
+      parent.classList.toggle('active');
+    }
+  });
+});
+
+// submenu toggle
+document.querySelectorAll('.dropdown-submenu > .dropdown-toggle').forEach((toggle) => {
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    let parent = this.closest('.dropdown-submenu');
+    let menu = parent.querySelector('.dropdown-menu');
+    if (menu) {
+      menu.classList.toggle('active');
+      parent.classList.toggle('active');
+    }
+  });
+});
                                                 <div class="">
                                                     <ul class="list-unstyled">
+                                                        <!-- Submenu -->
                                                         <li class="dropdown-submenu dropright-lg">
                                                             <a class="dropdown-item dropdown-list-group-item dropdown-toggle"
                                                                 href="#">
                                                                 <span class="mr-1">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="12"
-                                                                        height="12" viewBox="0 0 24 24" fill="none"
-                                                                        stroke="currentColor" stroke-width="2"
-                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        height="12" fill="none" stroke="currentColor"
+                                                                        stroke-width="2" stroke-linecap="round"
+                                                                        stroke-linejoin="round"
                                                                         class="feather feather-circle">
                                                                         <circle cx="12" cy="12" r="10"></circle>
-                                                                    </svg></span><span> Status
+                                                                    </svg>
+                                                                </span>
+                                                                <span>Status</span>
                                                             </a>
-                                                            <ul class="dropdown-menu">
+
+                                                            <!-- ✅ Submenu content -->
+                                                            <ul class="dropdown-menu list-unstyled pl-3">
                                                                 <li>
-                                                                    <a class="dropdown-item text-success" href="#!">
-                                                                        Online
-                                                                    </a>
+                                                                    <a class="dropdown-item" href="#">Online</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="dropdown-item text-black-50" href="#!">
-                                                                        Offline
-                                                                    </a>
+                                                                    <a class="dropdown-item" href="#">Busy</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="dropdown-item text-info" href="#!">
-                                                                        Away
-                                                                    </a>
+                                                                    <a class="dropdown-item" href="#">Away</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="dropdown-item text-danger" href="#!">
-                                                                        Busy
-                                                                    </a>
+                                                                    <a class="dropdown-item" href="#">Offline</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
 
-
-
+                                                        <!-- Normal Items -->
                                                         <li>
                                                             <a class="dropdown-item"
                                                                 href="@@webRoot/pages/profile-edit.html">
                                                                 <span class="mr-1">
-
                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="12"
-                                                                        height="12" viewBox="0 0 24 24" fill="none"
-                                                                        stroke="currentColor" stroke-width="2"
-                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        height="12" fill="none" stroke="currentColor"
+                                                                        stroke-width="2" stroke-linecap="round"
+                                                                        stroke-linejoin="round"
                                                                         class="feather feather-user">
                                                                         <path
                                                                             d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2">
                                                                         </path>
                                                                         <circle cx="12" cy="7" r="4"></circle>
-                                                                    </svg>
-                                                                </span>Profile
+                                                                    </svg> </span>Profile
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item"
-                                                                href="@@webRoot/pages/student-subscriptions.html"><span
-                                                                    class="mr-2">
+                                                                href="@@webRoot/pages/student-subscriptions.html">
+                                                                <span class="mr-2">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="14"
-                                                                        height="14" viewBox="0 0 24 24" fill="none"
-                                                                        stroke="currentColor" stroke-width="2"
-                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        height="14" fill="none" stroke="currentColor"
+                                                                        stroke-width="2" stroke-linecap="round"
+                                                                        stroke-linejoin="round"
                                                                         class="feather feather-star">
                                                                         <polygon
                                                                             points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
                                                                         </polygon>
-                                                                    </svg></span>Subscription
+                                                                    </svg> </span>Subscription
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item" href="#!">
                                                                 <span class="mr-2">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="14"
-                                                                        height="14" viewBox="0 0 24 24" fill="none"
-                                                                        stroke="currentColor" stroke-width="2"
-                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        height="14" fill="none" stroke="currentColor"
+                                                                        stroke-width="2" stroke-linecap="round"
+                                                                        stroke-linejoin="round"
                                                                         class="feather feather-settings">
                                                                         <circle cx="12" cy="12" r="3"></circle>
                                                                         <path
                                                                             d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
                                                                         </path>
-                                                                    </svg></span>Settings
+                                                                    </svg> </span>Settings
                                                             </a>
                                                         </li>
-
-
                                                     </ul>
                                                 </div>
+
                                                 <div class="dropdown-divider"></div>
                                                 <ul class="list-unstyled">
                                                     <li onclick="logoutUser()">
@@ -291,25 +322,31 @@
                                                                     class="feather feather-power">
                                                                     <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
                                                                     <line x1="12" y1="2" x2="12" y2="12"></line>
-                                                                </svg></span> <span>Sign Out</span>
+                                                                </svg></span>
+                                                            <span>Sign Out</span>
                                                         </span>
                                                     </li>
-
                                                 </ul>
-
                                             </div>
                                         </li>
                                     </ul>
-
+                                    <div class="arrow">
+                                        <!-- <button >
+                                         <img src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ded95e88f046d456861b914bb0993f24.svg"
+                                            alt="error">
+                                       </button> -->
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
+
                     <div class="ser-item-3" onclick="openLoginModal()" id="login-word">
                         <span class="login-word">Login</span>
+                        <!-- <a href="./login.html" class="login-word">Login</a> -->
                         <div class="login-underline" id="login-underline"></div>
                     </div>
+
                     <div class="ser-items">
                         <div class="sell-svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="104" height="48" viewBox="0 0 1603 768"
@@ -341,21 +378,16 @@
                         </div>
                     </div>
                 </div>
-
             </header>
-
-
-
 
             <!-- Hero Section -->
             <div>
-
-
                 <div class="menu-div">
                     <ul class="menu-list">
-                        <li style="display: flex; align-items: center;">
+                        <li style="display: flex; align-items: center">
                             <span class="all-categoris-span">ALL CATEGORIES</span>
-                            <div><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"
                                     fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L6.29289 9.70711C5.90237 9.31658 5.90237 8.68342 6.29289 8.29289C6.68342 7.90237 7.31658 7.90237 7.70711 8.29289L12 12.5858L16.2929 8.29289C16.6834 7.90237 17.3166 7.90237 17.7071 8.29289C18.0976 8.68342 18.0976 9.31658 17.7071 9.70711L12.7071 14.7071Z"
@@ -373,17 +405,15 @@
                     </ul>
                 </div>
 
-
                 <div class="slider">
                     <!-- Static image -->
                     <img src="https://images.olx.com.pk/thumbnails/527654309-800x600.webp" class="static-img"
-                        alt="Static Image">
+                        alt="Static Image" />
 
                     <!-- Animated image -->
                     <img src="https://images.olx.com.pk/thumbnails/527654309-800x600.webp" class="animated-img"
-                        alt="Animated Image">
+                        alt="Animated Image" />
                 </div>
-
             </div>
 
             <div class="category-image-section">
@@ -393,7 +423,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img1.png" alt="Mobiles">
+                                    <img src="././images/img1.png" alt="Mobiles" />
                                 </div>
                                 <div class="product">
                                     <p>Mobiles</p>
@@ -403,7 +433,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img2.png" alt="Vehicles">
+                                    <img src="././images/img2.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Vahicale</p>
@@ -413,7 +443,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img3.png" alt="Vehicles">
+                                    <img src="././images/img3.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Property for Sale</p>
@@ -423,7 +453,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img4.png" alt="Vehicles">
+                                    <img src="././images/img4.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Property For Rent</p>
@@ -433,7 +463,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img5.png" alt="Vehicles">
+                                    <img src="././images/img5.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Electronics & Home Appliances</p>
@@ -443,7 +473,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img6.png" alt="Vehicles">
+                                    <img src="././images/img6.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Bikes</p>
@@ -453,7 +483,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img7.png" alt="Vehicles">
+                                    <img src="././images/img7.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Buisnees industrial & Agriculture</p>
@@ -463,7 +493,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img8.png" alt="Vehicles">
+                                    <img src="././images/img8.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Services</p>
@@ -473,7 +503,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img9.png" alt="Vehicles">
+                                    <img src="././images/img9.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Jobs</p>
@@ -483,7 +513,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img10.png" alt="Vehicles">
+                                    <img src="././images/img10.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Animal</p>
@@ -493,7 +523,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img11.png" alt="Vehicles">
+                                    <img src="././images/img11.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Furniture Home & Dcore</p>
@@ -503,7 +533,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img12.png" alt="Vehicles">
+                                    <img src="././images/img12.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Fashion & beauty</p>
@@ -513,7 +543,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/img13.png" alt="Vehicles">
+                                    <img src="././images/img13.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Books, Sports & Hobbies</p>
@@ -523,7 +553,7 @@
                         <a href="#">
                             <div class="category">
                                 <div class="picture">
-                                    <img src="././images/igm14.png" alt="Vehicles">
+                                    <img src="././images/igm14.png" alt="Vehicles" />
                                 </div>
                                 <div class="product">
                                     <p>Kids</p>
@@ -534,30 +564,22 @@
                 </div>
             </div>
 
-
-
             <!-- Product Cards Section -->
 
-            <hr>
+            <hr />
 
             <div id="main-div">
                 <div id="loader" class="spinner"></div>
             </div>
 
-            <div class="card-container" id="cards" style="margin-top: 10px;">
-
-            </div>
-
-
+            <div class="card-container" id="cards" style="margin-top: 10px"></div>
 
             <!-- last Section  -->
-
-
 
             <div class="promo-section">
                 <div class="promo-box">
                     <div class="promo-image">
-                        <img src="https://tpc.googlesyndication.com/simgad/13384851836088239047" alt="error">
+                        <img src="https://tpc.googlesyndication.com/simgad/13384851836088239047" alt="error" />
                     </div>
                 </div>
 
@@ -565,12 +587,10 @@
                     <div class="box-center">
                         <div class="app-left">
                             <img src="https://www.olx.com.pk/assets/olx-mobile-app.dfa5b83f01c6e269aca19a3faff716a6.webp"
-                                alt="error">
+                                alt="error" />
                         </div>
                         <div class="center-line">
-                            <div class="blank">
-
-                            </div>
+                            <div class="blank"></div>
                         </div>
                         <div class="app-right">
                             <p>GET YOUR APP TODAY</p>
@@ -579,23 +599,22 @@
                                     <div class="one">
                                         <a href="#"><img
                                                 src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
-                                                alt="App Store">
+                                                alt="App Store" />
                                         </a>
                                     </div>
                                     <div class="two">
                                         <a href="#"><img
                                                 src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
-                                                alt="Google Play">
+                                                alt="Google Play" />
                                         </a>
                                     </div>
 
                                     <div class="three">
                                         <a href="#"><img
                                                 src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
-                                                alt="App Gallery">
+                                                alt="App Gallery" />
                                         </a>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -680,60 +699,60 @@
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p> Free Classifieds in Pakistan .&copy; 2006-2025 OLX </p>
+                    <p>Free Classifieds in Pakistan .&copy; 2006-2025 OLX</p>
                 </div>
             </footer>
-
 
             <div id="loginModal" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeLoginModal()">&times;</span>
                     <h2 id="login-text">Login</h2>
                     <form>
-                        <input class="inp" type="text" id="loginEmail" placeholder="Enter your Email" required><br>
+                        <input class="inp" type="text" id="loginEmail" placeholder="Enter your Email" required /><br />
                         <div class="password-wrapper">
-                            <input class="inp" type="password" id="loginPassword" placeholder="Password" required>
+                            <input class="inp" type="password" id="loginPassword" placeholder="Password" required />
                             <span class="toggle-eye" onclick="passwrodTypeChnge()">
                                 <img src="https://static.thenounproject.com/png/4334035-200.png" alt="Show"
-                                    class="eye-img" id="eye-img">
+                                    class="eye-img" id="eye-img" />
                             </span>
                         </div>
-                        <p style="margin: 0px; color: rgb(210, 155, 155);" id="invailed-para"></p>
-                        <br>
-                        <button class="btn-2" id="login-btn" type="submit" onclick="loginUser(event)">Login</button>
+                        <p style="margin: 0px; color: rgb(210, 155, 155)" id="invailed-para"></p>
+                        <br />
+                        <button class="btn-2" id="login-btn" type="submit" onclick="loginUser(event)">
+                            Login
+                        </button>
                     </form>
-                    <p style="margin-top: 10px; text-align: center;" id="last-para-login">
+                    <p style="margin-top: 10px; text-align: center" id="last-para-login">
                         Don't have an account?
                         <a href="#" onclick="openRegisterModal()" id="creat-account">Create an Account</a>
                     </p>
                 </div>
             </div>
 
-
-            <div id="registerModal" class="modal" style="display: none;">
+            <div id="registerModal" class="modal" style="display: none">
                 <div class="modal-content">
                     <span class="close" onclick="closeRegisterModal()">&times;</span>
                     <h2 id="register-h2">Register</h2>
 
                     <form id="registerForm">
-                        <input class="inp" type="text" placeholder="Full Name" required id="fullName"><br>
-                        <input class="inp" type="email" placeholder="Email" required id="email"><br>
+                        <input class="inp" type="text" placeholder="Full Name" required id="fullName" /><br />
+                        <input class="inp" type="email" placeholder="Email" required id="email" /><br />
                         <div class="password-wrapper">
-                            <input class="inp" type="password" id="NewPasswordInput" placeholder="Password" required>
+                            <input class="inp" type="password" id="NewPasswordInput" placeholder="Password" required />
                             <span class="toggle-eye" id="toggle-eye" onclick="passwrodTypeChnge()">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxtFhB9NsFxtue8RysFA_AAuAOeMvPuTWTGxFBu4mqz9HH1zjkdkZAfHmo3lLBKyi-5EQ&usqp=CAU"
-                                    alt="Show" class="eye-img" id="new-eye-img">
+                                    alt="Show" class="eye-img" id="new-eye-img" />
                             </span>
                         </div>
-                        <button class="btn-2" type="submit" onclick="resgisterUser(event)"
-                            id="register-btn">Register</button>
+                        <button class="btn-2" type="submit" onclick="resgisterUser(event)" id="register-btn">
+                            Register
+                        </button>
                         <p id="para"></p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
