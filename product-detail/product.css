@@ -417,6 +417,10 @@ header {
   margin: 0px 15px 0px 15px;
 }
 
+.product-slider img{
+    width: 100%;
+}
+
 /* Static image pehle se lagi hogi */
 .slider .static-img {
   position: absolute;
