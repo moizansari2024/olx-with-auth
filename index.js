@@ -13,8 +13,11 @@ async function getData() {
   loader.style.display = "none";
   cardElement.style.display = "flex";
 
+  products.sort(() => Math.random() - 0.5);
+
   products.map((product) => {
     let {
+      id,
       title,
       description,
       category,
@@ -24,7 +27,8 @@ async function getData() {
       stock,
     } = product;
     let { width, height, depth } = product.dimensions;
-    cardElement.innerHTML += ` <div class="card">
+    
+    cardElement.innerHTML += ` <div class="card" onclick="goToDetail(${id})">
   <div class="badge">Stock ${stock}</div>
   <div class="tilt">
     <div class="img"><img src="${images[0]}" alt="Premium Laptop"></div>
@@ -60,6 +64,15 @@ async function getData() {
 }
 
 getData();
+
+
+function goToDetail (id) {
+
+  window.location.href = "./product-detail/product-detail.html?id=" + id;
+
+
+}
+
 
 function openLoginModal() {
   document.getElementById("loginModal").style.display = "block";
@@ -205,47 +218,48 @@ document.querySelector("#useravator").addEventListener("click", function (e) {
 // //  <!-- //////////////////////////////Dtrat point//////////////////////////// -->
 
 // function toogle() {
-  // parent dropdown toggle
-document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
-  toggle.addEventListener('click', function (e) {
-    e.preventDefault();
+// parent dropdown toggle
 
-    let parent = this.closest('.dropdown');
+// document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
+//   toggle.addEventListener('click', function (e) {
+//     e.preventDefault();
 
-    // close all other dropdowns
-    document.querySelectorAll('.dropdown').forEach((drop) => {
-      if (drop !== parent) {
-        drop.classList.remove('active');
-        drop.querySelectorAll('.dropdown-menu').forEach((menu) => {
-          menu.classList.remove('active');
-        });
-      }
-    });
+//     let parent = this.closest('.dropdown');
 
-    // toggle current
-    let menu = parent.querySelector('.dropdown-menu');
-    if (menu) {
-      menu.classList.toggle('active');
-      parent.classList.toggle('active');
-    }
-  });
-});
+//     // close all other dropdowns
+//     document.querySelectorAll('.dropdown').forEach((drop) => {
+//       if (drop !== parent) {
+//         drop.classList.remove('active');
+//         drop.querySelectorAll('.dropdown-menu').forEach((menu) => {
+//           menu.classList.remove('active');
+//         });
+//       }
+//     });
 
-// submenu toggle
-document.querySelectorAll('.dropdown-submenu > .dropdown-toggle').forEach((toggle) => {
-  toggle.addEventListener('click', function (e) {
-    e.preventDefault();
+//     // toggle current
+//     let menu = parent.querySelector('.dropdown-menu');
+//     if (menu) {
+//       menu.classList.toggle('active');
+//       parent.classList.toggle('active');
+//     }
+//   });
+// });
 
-    let parent = this.closest('.dropdown-submenu');
-    let menu = parent.querySelector('.dropdown-menu');
-    if (menu) {
-      menu.classList.toggle('active');
-      parent.classList.toggle('active');
-    }
-  });
-});
+// // submenu toggle
+// document.querySelectorAll('.dropdown-submenu > .dropdown-toggle').forEach((toggle) => {
+//   toggle.addEventListener('click', function (e) {
+//     e.preventDefault();
 
-// }
+//     let parent = this.closest('.dropdown-submenu');
+//     let menu = parent.querySelector('.dropdown-menu');
+//     if (menu) {
+//       menu.classList.toggle('active');
+//       parent.classList.toggle('active');
+//     }
+//   });
+// });
+
+// // }
 
 function loginUser() {
   event.preventDefault();
